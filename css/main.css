@@ -28,7 +28,7 @@ font-weight: 300;
     height: 86px;
     margin: 0;
     line-height: 86px;
-    background: rgba(37, 36, 36, 1);
+    background: rgba(255, 0, 0, 1);
 
 }
 
@@ -115,24 +115,24 @@ font-weight: 300;
     z-index:1;
     color:white;
     top:-30%;
-    -webkit-animation: fall-down 3s ease-in-out infinite,rotate-helf 3s ease-in-out infinite; /* Safari 4+ */    
+    -webkit-animation: fall-down 3s ease-in-out infinite,rotate-helf 3s ease-in-out infinite; /* Safari 4+ */
     -moz-animation:    fall-down 3s ease-in-out infinite,rotate-helf 3s ease-in-out infinite; /* Fx 5+ */
     -o-animation:      fall-down 3s ease-in-out infinite,rotate-helf 3s ease-in-out infinite; /* Opera 12+ */
     animation:         fall-down 3s ease-in-out infinite,rotate-helf 3s ease-in-out infinite; /* IE 10+, Fx 29+ */
   transition: all 3s;
-  transition-timing: ease-in-out;    
+  transition-timing: ease-in-out;
 
 
 }
 .circle:hover{
-    transform: rotate(1080deg);    
+    transform: rotate(1080deg);
 }
 
 .circle.small{
     width: 50px;
     line-height: 50px;
     font-size: 25px;
-    -webkit-animation: fall-down 3s ease-in-out infinite,rotate 3s ease-in-out infinite; /* Safari 4+ */    
+    -webkit-animation: fall-down 3s ease-in-out infinite,rotate 3s ease-in-out infinite; /* Safari 4+ */
     -moz-animation:    fall-down 3s ease-in-out infinite,rotate 3s ease-in-out infinite; /* Fx 5+ */
     -o-animation:      fall-down 3s ease-in-out infinite,rotate 3s ease-in-out infinite; /* Opera 12+ */
     animation:         fall-down 3s ease-in-out infinite,rotate 3s ease-in-out infinite; /* IE 10+, Fx 29+ */
